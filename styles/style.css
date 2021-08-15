@@ -155,7 +155,7 @@ nav ul li a {
     background-size: 20vh;
     margin: 1vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -164,6 +164,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    margin-left: 5vw;
 }
 
 .kanye-container h5 {
@@ -188,6 +189,7 @@ nav ul li a {
 
 .kanye-pic {
     display: flex;
+    margin-right: 5vw;
 }
 
 .kanye-pic img {
