@@ -151,9 +151,29 @@ nav ul li a {
     background-image: url(/images/spotify-icon-white.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
+    height: 100vh;
     background-size: 20vh;
     margin: 1vw;
+}
+
+.kanye-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+}
+
+.kanye-container h5 {
+    font-size: 3.5vh;
+    border-bottom: 3px solid white;
+    width: fit-content;
+    padding-bottom: 1vh;
+}
+
+.kanye-container h6 {
+    font-size: 3.5vh;
+    margin: 0px 0px 1vh 0px;
+    font-weight: 600;
 }
 
 
