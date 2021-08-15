@@ -151,16 +151,19 @@ nav ul li a {
     background-image: url(/images/spotify-icon-white.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     background-size: 20vh;
     margin: 1vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .kanye-container {
     color: white;
     display: flex;
     flex-direction: column;
-    margin-left: 7vw;
+    width: fit-content;
 }
 
 .kanye-container h5 {
@@ -172,8 +175,23 @@ nav ul li a {
 
 .kanye-container h6 {
     font-size: 3.5vh;
-    margin: 0px 0px 1vh 0px;
+    margin: 0vh 0px 1vh 0px;
     font-weight: 600;
+}
+
+.kanye-container p {
+    margin: 1vh 0px 7vh 0px;
+    font-size: 2vh;
+    font-weight: lighter;
+    line-height: 3.5vh;
+}
+
+.kanye-pic {
+    display: flex;
+}
+
+.kanye-pic img {
+    height: 60vh;
 }
 
 
